@@ -15,6 +15,11 @@
 		9C2AB15A246D048D007AD46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AB158246D048D007AD46F /* LaunchScreen.storyboard */; };
 		9C2AB165246D048D007AD46F /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2AB164246D048D007AD46F /* MentorBookTests.swift */; };
 		9C2AB170246D048E007AD46F /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2AB16F246D048E007AD46F /* MentorBookUITests.swift */; };
+		9C2AB181246D04CB007AD46F /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AB17E246D04CB007AD46F /* ryo.jpg */; };
+		9C2AB182246D04CB007AD46F /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AB17F246D04CB007AD46F /* nagata.jpg */; };
+		9C2AB183246D04CB007AD46F /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AB180246D04CB007AD46F /* taithi.JPG */; };
+		9C2AB185246D07F7007AD46F /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2AB184246D07F7007AD46F /* Mentor.swift */; };
+		9C2AB187246D1932007AD46F /* nabeatsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C2AB186246D1932007AD46F /* nabeatsu.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		9C2AB16B246D048E007AD46F /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2AB16F246D048E007AD46F /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		9C2AB171246D048E007AD46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2AB17E246D04CB007AD46F /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		9C2AB17F246D04CB007AD46F /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		9C2AB180246D04CB007AD46F /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		9C2AB184246D07F7007AD46F /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		9C2AB186246D1932007AD46F /* nabeatsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nabeatsu.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +113,10 @@
 				9C2AB14F246D0488007AD46F /* SceneDelegate.swift */,
 				9C2AB151246D0488007AD46F /* ViewController.swift */,
 				9C2AB153246D0488007AD46F /* Main.storyboard */,
+				9C2AB184246D07F7007AD46F /* Mentor.swift */,
 				9C2AB156246D048D007AD46F /* Assets.xcassets */,
 				9C2AB158246D048D007AD46F /* LaunchScreen.storyboard */,
+				9C2AB17D246D04CB007AD46F /* images */,
 				9C2AB15B246D048D007AD46F /* Info.plist */,
 			);
 			path = MentorBook;
@@ -126,6 +138,17 @@
 				9C2AB171246D048E007AD46F /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		9C2AB17D246D04CB007AD46F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9C2AB17E246D04CB007AD46F /* ryo.jpg */,
+				9C2AB17F246D04CB007AD46F /* nagata.jpg */,
+				9C2AB186246D1932007AD46F /* nabeatsu.jpg */,
+				9C2AB180246D04CB007AD46F /* taithi.JPG */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2AB181246D04CB007AD46F /* ryo.jpg in Resources */,
+				9C2AB187246D1932007AD46F /* nabeatsu.jpg in Resources */,
+				9C2AB182246D04CB007AD46F /* nagata.jpg in Resources */,
+				9C2AB183246D04CB007AD46F /* taithi.JPG in Resources */,
 				9C2AB15A246D048D007AD46F /* LaunchScreen.storyboard in Resources */,
 				9C2AB157246D048D007AD46F /* Assets.xcassets in Resources */,
 				9C2AB155246D0488007AD46F /* Main.storyboard in Resources */,
@@ -259,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C2AB185246D07F7007AD46F /* Mentor.swift in Sources */,
 				9C2AB152246D0488007AD46F /* ViewController.swift in Sources */,
 				9C2AB14E246D0488007AD46F /* AppDelegate.swift in Sources */,
 				9C2AB150246D0488007AD46F /* SceneDelegate.swift in Sources */,
